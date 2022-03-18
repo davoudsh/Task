@@ -3,13 +3,13 @@ variable "region" {
 }
 
 variable "allowed_account_ids" {
-  default     = ["398416956804"]
+  default     = []
   description = "A list of AWS account IDs to grant read-only access to the repo. A maximum of 9 accounts"
   type        = list(string)
 }
 
 variable "allowed_account_ids_write" {
-  default     = ["398416956804"]
+  default     = []
   description = "A list of AWS account IDs to grant write access to the repo. A maximum of 9 accounts"
   type        = list(string)
 }
