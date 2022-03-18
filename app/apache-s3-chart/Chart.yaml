@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: 'v1.0.0'
+name: apache2-s3
+description: The Apache2 Microservice that lists the objects of an S3 bucket
+type: application
+version: 0.1.0
