@@ -7,7 +7,7 @@ This is a project to create an S3 bucket that serves as a Helm repo. It configur
 |      Name     |   Version   |
 | ------------- | ------------|
 | terraform     | >= 0.12.19  |
-| ------------- | ----------- |
+|               |             |
 | aws           | >= 3.0.0    |
 
   
